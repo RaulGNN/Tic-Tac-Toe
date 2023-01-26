@@ -1,0 +1,28 @@
+html {
+    background: linear-gradient(120deg, cyan, darkblue);
+
+}
+h2 {
+    font-family: "Comic Sans MS";
+    padding: 55px;
+    background-color: red;
+}
+
+.juego {
+    position: absolute;
+}
+.contenedor {
+    background-color: antiquewhite;
+    padding: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.button {
+    background-color: aqua;
+    height: 10em;
+    width: 10em;
+    position: center;
+    padding: 20px;
+
+}
