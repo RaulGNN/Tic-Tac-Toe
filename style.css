@@ -1,28 +1,49 @@
 html {
-    background: linear-gradient(120deg, cyan, darkblue);
+    background: linear-gradient(135deg, cyan, darkblue);
+
 
 }
 h2 {
-    font-family: "Comic Sans MS";
-    padding: 55px;
-    background-color: red;
+
+    margin: 1.5em 0 0 1.5em;
+    
 }
 
 .juego {
     position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
 .contenedor {
-    background-color: antiquewhite;
-    padding: 20px;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
+    width: 70vmin;
+    height: 70vmin;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .button {
-    background-color: aqua;
-    height: 10em;
-    width: 10em;
-    position: center;
-    padding: 20px;
+    background: whitesmoke;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 25px;
+    font-size: 12vmin;
+    color: darkblue;
 
+
+}
+
+#restart {
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 6px;
+    border: none;
+    background-color: bisque;
+    color: black;
+    align-items: center;
+    display: block;
+    margin: 1.5em auto 0 auto;
 }
