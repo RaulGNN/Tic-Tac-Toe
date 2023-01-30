@@ -1,21 +1,28 @@
 html {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+body {
+    height: 100vh;
     background: linear-gradient(135deg, cyan, darkblue);
-
-
 }
 h2 {
 
-    margin: 1.5em 0 0 1.5em;
+    text-align: center;
+    font-size: 6vmin;
     
 }
 
 .juego {
+
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
 .contenedor {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     width: 70vmin;
@@ -37,13 +44,20 @@ h2 {
 }
 
 #restart {
+    font-family: "Bahnschrift SemiBold", sans-serif;
     font-size: 1.3em;
+    font-weight: bold;
     padding: 1em;
-    border-radius: 6px;
+    border-radius: 10px;
     border: none;
-    background-color: bisque;
-    color: black;
+    background-color: #000000;
+    color: #ffffff;
     align-items: center;
     display: block;
     margin: 1.5em auto 0 auto;
+    cursor: pointer;
+    transition: 0.01s ease-in-out;
+}
+#restart:hover {
+    background: rgba(132, 10, 10, 0.42);
 }
